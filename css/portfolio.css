@@ -1,4 +1,81 @@
 body{
-    color: gray;
+    background-color: gray;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+    padding:20px 30px;
+    background-color: #111642;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+header h1{
+    font-weight:bold;
+    font-size:55px;
+    color:#1585b2;
+    margin:0;
+}
+
+header a{
+    color: #1585b2;
+    padding:40px;
+}
+
+header a{
+    text-decoration: none;
+    color:#1585b2;
+    size:36px;
+}
+
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.about-me h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 40px;
+}
+
+.works h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 40px;
+}
+
+.contact h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+}
+.contact ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
 }
