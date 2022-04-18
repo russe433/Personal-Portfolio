@@ -57,6 +57,23 @@ header nav ul li a {
     font-size: 40px;
 }
 
+.run-buddy img{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 40%;
+    margin: 3.5%;
+}
+
+.horiseon img{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 40%;
+    margin: 3.5%;
+}
 .contact h2{
     display: flex;
     flex-wrap: wrap;
@@ -78,4 +95,9 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 25px;
+}
+.flex-imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
